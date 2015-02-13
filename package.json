@@ -1,0 +1,10 @@
+{
+    "name": "maps-api",
+    "version": "0.0.1",
+    "dependencies": {
+        "restify":"2.8.5",
+        "mongoose":"3.8.23"
+    },
+    "devDependencies": {
+    }
+}
