@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 var markerSchema = mongoose.Schema({
-    mapId: ObjectId,
+    mapId: mongoose.Schema.Types.ObjectId,
     title: String,
     date: String,
     latLng: Array,
