@@ -4,7 +4,8 @@ var markerSchema = mongoose.Schema({
     mapId: mongoose.Schema.Types.ObjectId,
     title: String,
     date: String,
-    latLng: Array,
+    latitude: Number,
+    longitude: Number,
     description: String
 });
 
