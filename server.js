@@ -49,11 +49,17 @@ function saveMarker(req, res, next) {
 }
 
 function updateMarker(req, res, next) {
-
+    var marker = req.body;
+    Marker.findByIdAndUpdate(req.params.id, marker, function(err) {
+        res.json(200, marker);
+    });
 }
 
 function delMarker(req, res, next) {
-
+    var marker = req.body;
+    Marker.findByIdAndRemove(req.params.id, marker, function(err) {
+        res.json(200, marker);
+    });
 }
 
 /** startup **/
