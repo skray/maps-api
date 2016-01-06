@@ -2,7 +2,10 @@
   "name": "maps-api",
   "version": "0.0.1",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "pg": "^4.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.16.0"
   },
   "devDependencies": {}
 }
